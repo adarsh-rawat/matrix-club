@@ -1,0 +1,25 @@
+body{
+    overflow: auto;
+    margin: 0;
+}
+.image-container {
+    width: 50%;
+    max-width: 350px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .message{
+    font-size: 42px;
+    font-family: 'Quicksand', sans-serif;
+}
+@media screen and (max-width: 600px) {
+    .container .message{
+        font-size: 24px;
+    }
+}
